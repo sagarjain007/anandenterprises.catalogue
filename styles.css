@@ -1,0 +1,77 @@
+.font-1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.logo-name{
+    display: inline-block;
+    margin-left: 43%;
+    color: #324099;
+    margin-top: 5px;
+}
+
+.logo-name h2{
+    margin-bottom: 0;
+}
+
+#section1 h1{
+    font-weight: 300;
+    font-size: 70px;
+    color: #283897;
+}
+
+#redline{
+    border: 1.5px solid #F81000;
+    background-color: #F81000;
+    margin-left: 10%;
+}
+
+
+#categories{
+    background-image: url(../svg/Colored\ Shapes.svg);
+}
+
+.card{
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.card img{
+    height: 300px;
+    border-radius: 10px;
+    /* filter: drop-shadow(1px 2px 5px rgba(0, 0, 0, 0.3)); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    transition: transform .1s; /* Animation */
+
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.card-title{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 30px;
+    color: #8E8E8E;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    border-top: 2px solid #F81000;
+    color: #283897;
+}
+
+footer h6{
+    margin-bottom: 0;
+    font-weight: 400;
+}
